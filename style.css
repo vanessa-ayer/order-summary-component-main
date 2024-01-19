@@ -91,7 +91,7 @@ body {
   margin-left: 20px;
 }
 
-.price-plan-box-left h3 {
+.price-plan-box-left h2 {
   color: #1f2e55;
   font-size: 16px;
   font-weight: 900;
@@ -162,7 +162,7 @@ a.cancel-order:hover {
     margin-right: 20px;
   }
 
-  .price-plan-box h3 p {
+  .price-plan-box h2 p {
     font-size: 14px;
   }
 }
@@ -194,7 +194,7 @@ a.cancel-order:hover {
     margin-right: 20px;
   }
 
-  .price-plan-box h3 p {
+  .price-plan-box h2 p {
     font-size: 14px;
   }
 }
