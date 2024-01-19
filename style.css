@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Red Hat Display', sans-serif;
+  min-height: 100vh;
+  background-image: url(https://www.digitshack.com/codepen/mentor1/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: hsl(225, 100%, 94%);
+  position: relative;
+}
+
+.container {
+  position: absolute;
+  max-width: 450px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.15);
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.card-content {
+  padding: 6%;
+  margin: 0 30px;
+  text-align: center;
+}
+
+.title {
+  color: #1f2e55;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 900;
+  margin-bottom: 17px;
+}
+
+.sub-text {
+  color: #717fa6;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  margin-bottom: 20px;
+}
+
+.price-plan-box {
+  width: 100%;
+  height: 100px;
+  border-radius: 11px;
+  background-color: #f7f9ff;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+
+.price-plan-box a {
+  color: #382ae1;
+  font-size: 14px;
+  font-weight: 700;
+  margin-right: 20px;
+  text-decoration-line: underline;
+  cursor: pointer;
+}
+
+.price-plan-box a:hover {
+  color: #766cf1;
+  text-decoration: none;
+}
+
+.price-plan-box-left {
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+.price-plan-box-left img {
+  margin-left: 20px;
+}
+
+.price-plan-box-left div {
+  margin-left: 20px;
+}
+
+.price-plan-box-left h3 {
+  color: #1f2e55;
+  font-size: 16px;
+  font-weight: 900;
+}
+
+.price-plan-box-left p {
+  color: #717fa6;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+button.proceed-btn {
+  font-family: 'Red Hat Display', sans-serif;
+  background-color: #382ae1;
+  border: none;
+  padding: 15px 0;
+  border-radius: 11px;
+  color: #fff;
+  box-shadow: 0px 20px 20px 0px rgba(56, 42, 225, 0.19);
+  font-size: 15px;
+  font-weight: 900;
+  width: 100%;
+  margin-bottom: 32px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+
+button.proceed-btn:hover {
+  background-color: #766cf1;
+  box-shadow: 0px 20px 20px 0px rgba(56, 42, 225, 0.19);
+}
+
+.cancel-order {
+  color: hsl(224, 23%, 55%);
+  text-decoration: none;
+  font-weight: 900;
+  transition: color 0.3s ease;
+}
+
+a.cancel-order:hover {
+  color: hsl(223, 47%, 23%);
+}
+
+@media (max-width: 375px) {
+  body {
+    background-image: url('./images/pattern-background-mobile.svg');
+  }
+
+  .container {
+    max-width: 375px;
+  }
+
+  .title {
+    font-size: 22px;
+  }
+
+  .sub-text {
+    font-size: 15px;
+  }
+
+  .price-plan-box {
+    width: 285px;
+    height: 81px;
+  }
+
+  .price-plan-box a {
+    font-size: 13px;
+    margin-right: 20px;
+  }
+
+  .price-plan-box h3 p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 475px) {
+  body {
+    background-image: url('./images/pattern-background-mobile.svg');
+  }
+
+  .container {
+    max-width: 375px;
+  }
+
+  .title {
+    font-size: 22px;
+  }
+
+  .sub-text {
+    font-size: 15px;
+  }
+
+  .price-plan-box {
+    width: 285px;
+    height: 81px;
+  }
+
+  .price-plan-box a {
+    font-size: 13px;
+    margin-right: 20px;
+  }
+
+  .price-plan-box h3 p {
+    font-size: 14px;
+  }
+}
