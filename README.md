@@ -5,7 +5,7 @@ This is a solution to the [Order Summary Component challenge on Frontend Mentor]
 ## Table of contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
+  - [The Challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
   - [Built with](#built-with)
@@ -13,7 +13,7 @@ This is a solution to the [Order Summary Component challenge on Frontend Mentor]
 
 ## Overview
 
-### The challenge
+### The Challenge
 
 Users should be able to:
 
@@ -33,7 +33,7 @@ Users should be able to:
 
 - Semantic HTML5 markup
 - CSS custom properties
-- CSS Media queries
+- CSS media queries
 - Flexbox
 
 ## Author
