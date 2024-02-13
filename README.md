@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: 
+- Solution URL: https://www.frontendmentor.io/solutions/order-summary-component-kjQOO5kID3
 - Live Site URL: https://vanessa-ayer.github.io/order-summary-component-main/
 
 ### Built with
